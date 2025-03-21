@@ -8,7 +8,7 @@ export default function ProductList() {
   const navigate = useNavigate();
 
   // Fake data sản phẩm
-  const products = Array.from({ length: 30 }, (_, index) => ({
+  const products = Array.from({ length: 50 }, (_, index) => ({
     id: index + 1,
     name: `Sản phẩm ${index + 1}`,
     price: Math.floor(Math.random() * 1000000) + 100000,
